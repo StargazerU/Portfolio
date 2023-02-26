@@ -1,0 +1,25 @@
+.footer{
+    background-color: #083248;
+    height: 150px;
+} 
+.footer > .banner-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer > .legal-crap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.footer > .legal-crap > .brand-logo{
+    display: flex;
+    justify-self: start;
+}
+
+.footer > .legal-crap > .copyright{
+    display: flex;
+    justify-content: end;
+}
