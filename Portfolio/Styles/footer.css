@@ -1,6 +1,7 @@
 .footer{
     background-color: #083248;
     height: 150px;
+    border-top: 5px solid black;
 } 
 .footer > .banner-image{
     display: flex;
@@ -21,5 +22,6 @@
 
 .footer > .legal-crap > .copyright{
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    text-align: end;
 }

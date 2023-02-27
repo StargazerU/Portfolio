@@ -5,6 +5,8 @@
     border-left: 5px;
     border-right: 5px;
     border-style: solid;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .content-wrapper > .title-body h1{
@@ -15,6 +17,8 @@
     color: white;
     margin-bottom: 11px;
     padding: 5px;
+    padding-top: 16px;
+    font-size: 25px;
 }
 
 .content-wrapper > .title-body p{
@@ -22,12 +26,6 @@
     align-items: center;
     justify-content: space-around;
     color: white;
-}
-
-.content-wrapper > .content-art h2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .content-wrapper > .content-art > .top-content{
@@ -64,7 +62,7 @@
 .content-footer{
     background-color: #031b28;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .content-footer h3{
@@ -77,11 +75,7 @@
 .content-footer p{
     color: white;
     display: flex;
-    border: 0px;
-    border-top: 10px;
-}
-
-.space{
-    margin-left: 80px;
-    margin-right: 80px;
+    line-height: 20px;
+    margin: 18px;
+    text-align: center;
 }
