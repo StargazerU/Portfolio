@@ -1,11 +1,12 @@
 .navigation-wrapper{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0; 
     width: 100%;
-    height: 48;
+    height: 48px;
     z-index: 1;
+    box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 1);
 }
 
 .navigation-wrapper > .banner-image{
@@ -16,21 +17,34 @@
 
 .navigation-wrapper > .navigation-bar{
     display: flex;
-    align-items: center;
     justify-content: space-around;
     background-color: #fccb06;
     border: 2px;
-    border-radius: 2px;
     border-color: black;
     border-style: solid;
 }
 
+.navigation-wrapper > .navigation-bar > .nav-link{
+    margin: 4px;
+    height: 26px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation-wrapper > .navigation-bar > .nav-link > .home{
+    margin-left: 100px;
+}
+
+.navigation-wrapper > .navigation-bar > .nav-link > .contact{
+    margin-right: 100px;
+}
+
 .navigation-wrapper > .navigation-bar a{
-    transition: 0.6s;
+    position: absolute;
+    transition: 0.5s;
     font-family: "Roboto Slab", sans-serif;
     color: #031b28;
     font-size: 20px;
-    margin: 4px;
     padding-left: 10px;
     padding-right: 10px;
     border-left: 2px solid black;
@@ -38,7 +52,6 @@
 }
 
 .navigation-wrapper > .navigation-bar a:hover{
-    transition: .5s;
-    letter-spacing: 1.5px;
-    font-size: 23px;
+        letter-spacing: 1.2px;
+    transform: scale(1.1);
 }

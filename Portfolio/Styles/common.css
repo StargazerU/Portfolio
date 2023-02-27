@@ -2,6 +2,7 @@ body{
     background-color: #8c0e0f;
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 
 .separator{
@@ -10,4 +11,15 @@ body{
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 5px;
+}
+
+.separator-two{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    background-color: #fccb06;
+    height: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid #fccb06;
+    border-radius: 2px;
 }
