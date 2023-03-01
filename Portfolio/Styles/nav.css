@@ -26,13 +26,13 @@
 
 .navigation-wrapper > .navigation-bar > .nav-link{
     margin: 4px;
-    height: 26px;
+    height: 25px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .navigation-wrapper > .navigation-bar > .nav-link > .home{
-    margin-left: 100px;
+    margin-left: 115px;
 }
 
 .navigation-wrapper > .navigation-bar > .nav-link > .contact{
@@ -49,9 +49,10 @@
     padding-right: 10px;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    text-decoration: none;
 }
 
 .navigation-wrapper > .navigation-bar a:hover{
         letter-spacing: 1.2px;
-    transform: scale(1.1);
+        transform: scale(1.1);
 }

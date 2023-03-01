@@ -1,7 +1,6 @@
 .footer{
     background-color: #083248;
     height: 150px;
-    border-top: 5px solid black;
 } 
 .footer > .banner-image{
     display: flex;
@@ -9,6 +8,9 @@
     justify-content: space-evenly;
     height: 30px;
     background-color: #fccb06;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 .footer > .legal-crap{
